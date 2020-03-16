@@ -134,7 +134,7 @@ int main(int argc,char ** argv)
     cout << "width    : "<< model_width << endl;
     cout << "channels : "<< model_channels << endl;
 
-    VideoCapture cap("19_edit.mp4");
+    VideoCapture cap("Highway.mp4");
     if (!cap.isOpened()) {
         cerr << "ERROR: Unable to open the camera" << endl;
         return 0;
