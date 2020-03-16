@@ -1,5 +1,5 @@
 # TensorFlow-Lite-RPi-64-bit-Segmentation
-TensorFlow Lite running at 7.2 FPS on bare Raspberry Pi 4
+TensorFlow Lite running at 7.2 FPS on bare Raspberry Pi 4 with Ubuntu
 
 A fast C++ implementation of TensorFlow Lite Unet on a bare Raspberry Pi 4.
 Once overclocked to 1850 MHz, the app runs at 7.2 FPS!
@@ -26,6 +26,11 @@ deeplabv3_257_mv_gpu.tflite <br/>
 TestUnet.cpb <br/>
 Unet.cpp<br/>
  <br/>
-Run TestUnet.cpb with Code::Blocks. Remember, you also need a working OpenCV 4 on your Raspberry. <br/>
+Run TestUnet.cpb withCode::Blocks. Remember, you also need a working OpenCV 4 on your Raspberry. <br/>
+I fact you can run this example on any aarch64 Linux system. <br/>
 
 ![output image]( https://qengineering.eu/images/Unet_64.jpg )
+
+See the movie at: https://www.youtube.com/watch?v=Kh9DLMgCIIE
+
+
