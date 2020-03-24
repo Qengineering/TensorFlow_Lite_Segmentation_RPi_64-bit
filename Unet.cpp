@@ -56,12 +56,13 @@ void GetImageTFLite(float* out, Mat &src)
     float f;
     uint8_t *in;
     static Mat image;
-    int Len = model_height * model_height * model_channels;
+    int Len;
 
     // copy image to input as input tensor
     cv::resize(src, image, Size(model_width,model_height),INTER_NEAREST);
 
     in=image.data;
+    Len=image.rows*image.cols*image.channels();
     for(i=0;i<Len;i++){
         f     =in[i];
         out[i]=(f - 127.5f) / 127.5f;
