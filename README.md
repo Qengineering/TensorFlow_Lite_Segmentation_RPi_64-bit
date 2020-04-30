@@ -7,7 +7,7 @@ Once overclocked to 1850 MHz, the app runs at 7.2 FPS!
 https://arxiv.org/abs/1606.00915 <br/>
 Training set: VOC2017 <br/>
 Size: 257x257 <br/>
-Frame rate Unet Lite : 4.0 FPS (RPi 4 @ 1900 MHz - 32 bits OS) see: https://github.com/Qengineering/TensorFlow_Lite_Segmentation_RPi_32-bit <br/>
+Frame rate Unet Lite : 4.0 FPS (RPi 4 @ 1900 MHz - 32 bits OS) <br/>
 Frame rate Unet Lite : 7.2 FPS (RPi 4 @ 1875 MHz - 64 bits OS) <br/>
 <br/>
 Special made for a bare Raspberry Pi see: https://qengineering.eu/install-tensorflow-2-lite-on-raspberry-pi-4.html <br/>
