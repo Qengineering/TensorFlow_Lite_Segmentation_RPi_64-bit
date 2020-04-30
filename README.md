@@ -1,5 +1,5 @@
-# TensorFlow-Lite-RPi-64-bit-Segmentation
-TensorFlow Lite running at 7.2 FPS on bare Raspberry Pi 4 with Ubuntu
+# TensorFlow_Lite_Segmentation_RPi_64-bit
+TensorFlow Lite Segmentation running at 7.2 FPS on bare Raspberry Pi 4 with Ubuntu
 
 A fast C++ implementation of TensorFlow Lite Unet on a bare Raspberry Pi 4.
 Once overclocked to 1850 MHz, the app runs at 7.2 FPS!
@@ -15,7 +15,7 @@ Special made for a bare Raspberry Pi see: https://qengineering.eu/install-tensor
 To extract and run the network in Code::Blocks <br/>
 $ mkdir *MyDir* <br/>
 $ cd *MyDir* <br/>
-$ wget https://github.com/Qengineering/TensorFlow-Lite-RPi-64-bit-Segmentation/archive/master.zip <br/>
+$ wget https://github.com/Qengineering/TensorFlow_Lite_Segmentation_RPi_64-bit/archive/master.zip <br/>
 $ unzip -j master.zip <br/>
 Remove master.zip and README.md as they are no longer needed. <br/> 
 $ rm master.zip <br/>
