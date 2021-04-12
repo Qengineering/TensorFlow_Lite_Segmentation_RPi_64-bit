@@ -18,7 +18,7 @@ Special made for a bare Raspberry Pi see: https://qengineering.eu/install-tensor
 To extract and run the network in Code::Blocks <br/>
 $ mkdir *MyDir* <br/>
 $ cd *MyDir* <br/>
-$ wget https://github.com/Qengineering/TensorFlow_Lite_Segmentation_RPi_64-bit/archive/master.zip <br/>
+$ wget https://github.com/Qengineering/TensorFlow_Lite_Segmentation_RPi_64-bit/archive/refs/heads/master.zip <br/>
 $ unzip -j master.zip <br/>
 Remove master.zip and README.md as they are no longer needed. <br/> 
 $ rm master.zip <br/>
