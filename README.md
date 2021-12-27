@@ -51,7 +51,6 @@ Unet.cpp<br/>
 Run TestUnet.cpb withCode::Blocks. More info or<br/> 
 if you want to connect a camera to the app, follow the instructions at [Hands-On](https://qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html#HandsOn).<br/>
 I fact you can run this example on any aarch64 Linux system. <br/>
-
 See the movie at: https://www.youtube.com/watch?v=Kh9DLMgCIIE
 
 ------------
