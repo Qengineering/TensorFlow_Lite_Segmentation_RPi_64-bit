@@ -76,8 +76,8 @@ void detect_from_video(Mat &src)
     float *data;
     RGB *rgb;
     static Mat image;
-    static Mat frame(model_width,model_height,CV_8UC3);
-    static Mat blend(src.cols   ,src.rows    ,CV_8UC3);
+    static Mat frame(model_height,model_width,CV_8UC3);
+    static Mat blend(src.rows,src.cols       ,CV_8UC3);
 
     GetImageTFLite(interpreter->typed_tensor<float>(interpreter->inputs()[0]), src);
 
